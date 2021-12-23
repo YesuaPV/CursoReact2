@@ -3,8 +3,8 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import IndexContainer from '../containers/IndexContainer';
 import WelcomeContainer from '../containers/WelcomeContainer';
 // import RFCContainer from '../containers/RFCContainer';
-// import ApiContainer from '../containers/ApiContainer';
-// import DomicilioContainer from '../containers/DomicilioContainer';
+import ApiContainer from '../containers/ApiContainer';
+import DomicilioContainer from '../containers/DomicilioContainer';
 
 const App = () =>{
     return(
@@ -18,13 +18,13 @@ const App = () =>{
                 </Route>
                 {/* <Route exact path="/rfc">
                     <RFCContainer />
-                </Route>
+                </Route> */}
                 <Route exact path="/api">
                     <ApiContainer />
                 </Route>
                 <Route exact path="/domicilio">
                     <DomicilioContainer />
-                </Route> */}
+                </Route>
                 <Route>
                     <div className="container mt-5 text-center">
                         <h1>404 Not found</h1>

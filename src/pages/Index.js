@@ -1,5 +1,4 @@
 import React from 'react';
-//import Logo from '../images/logo.png';
 import Imagen from '../images/imagen.png';
 
 const Index = ({form, onChange, onSubmit}) => (
