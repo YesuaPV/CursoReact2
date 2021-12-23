@@ -5,6 +5,7 @@ import Request from '../async/request';
 const ApiContainer = () =>{
     const [ perfiles, setPerfiles ] = useState([]);
     const [ nombre, setNombre ] = useState("");
+    const [ cantidad,setCantidad] = useState({mensaje:'',cantidadR:''});
 
     useEffect(
         () =>{
@@ -21,6 +22,12 @@ const ApiContainer = () =>{
         let respose = await request.exec();
         console.log( respose );
         setPerfiles( respose.items );
+        if(respose.total_count===0){
+            setCantidad({...cantidad,mensaje:'',cantidadR:'Sin resultados'});
+        }
+        else{
+            setCantidad({...cantidad,mensaje:respose.items.length+' Resultados disponibles',cantidadR:''});
+        }
     }
     
     return(
@@ -29,6 +36,7 @@ const ApiContainer = () =>{
             consumir = { consumir }
             onChange = { onChange }
             nombre = { nombre }
+            cantidad = { cantidad }
         />
     )
 };
