@@ -1,15 +1,13 @@
 import React from 'react';
-import Imagen from '../images/imagen.png';
+import Logo from '../images/logo.png';
 
 const Index = ({form, onChange, onSubmit}) => (
     <div className="principal">
-        <div className="container-form">            
+        <div className="container-form">
+            
             <form onSubmit={onSubmit} className="form-react">
-                <div className="text-center mb-1">
-                    <h1>Curso React</h1>
-                </div>
                 <div className="text-center mb-4">
-                    <img src={Imagen} alt="Imagen Prueba" />
+                    <img src={Logo} alt="Logo Escom" />
                 </div>
                 <div className="form-group mb-3">
                     <label htmlFor="email" className="form-label">Correo</label>
@@ -24,7 +22,7 @@ const Index = ({form, onChange, onSubmit}) => (
                 </div>
             </form>
         </div>
-    </div>
-);
+        </div>
+        );
 
-export default Index;
+        export default Index;

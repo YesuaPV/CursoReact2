@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Welcome = ({add, trash, trashItem, onChange, item, data, form, goBack}) =>(
+const Welcome = ({trash, trashItem, add, onChange, item, data, form, goBack}) =>(
     <div className="principal">
         <div className="text-center pt-5">
             <h2>Bienvenido {form.email}</h2>
@@ -25,14 +25,14 @@ const Welcome = ({add, trash, trashItem, onChange, item, data, form, goBack}) =>
                 </div>
             </form>
         </div>
-        <div className="container mt-4 pb-2">
+        <div className="container mt-5">
             <table className="table">
                 <thead>
                     <tr>
-                        <th scope="col-2">#</th>
-                        <th scope="col-2">ID</th>
-                        <th scope="col-6">Nombre</th>
-                        <th className="text-center" scope="col-2">Eliminar</th>
+                        <th scope="col">#</th>
+                        <th scope="col">ID</th>
+                        <th scope="col">Nombre</th>
+                        <th className="text-center" scope="col">Eliminar</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -43,7 +43,7 @@ const Welcome = ({add, trash, trashItem, onChange, item, data, form, goBack}) =>
                                     <th scope="row">{i + 1}</th>
                                     <td>{item.id}</td>
                                     <td>{item.name}</td>
-                                    <td className="text-center"><button onClick={(e) => trashItem(item)} className="btn btn-danger">X</button></td>
+                                    <td className="text-center"><button id={item.id} onClick={(e) => trashItem(item) } className="btn btn-danger">X</button></td>
                                 </tr>
                             )
                         )

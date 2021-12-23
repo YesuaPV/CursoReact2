@@ -1,10 +1,10 @@
 import React from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
-import IndexContainer from '../containers/IndexContainer';
-import WelcomeContainer from '../containers/WelcomeContainer';
-import RFCContainer from '../containers/RFCContainer';
 import ApiContainer from '../containers/ApiContainer';
 import DomicilioContainer from '../containers/DomicilioContainer';
+import IndexContainer from '../containers/IndexContainer';
+import RFCContainer from '../containers/RFCContainer';
+import WelcomeContainer from '../containers/WelcomeContainer';
 
 const App = () =>{
     return(
