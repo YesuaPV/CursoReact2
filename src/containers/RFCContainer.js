@@ -104,6 +104,90 @@ const RFCContainer = () =>{
             let arr = value.split("-");
             setRFC( sub1 + arr[0].substring(2,5) + arr[1] + arr[2] + sub2 );
             // aaaa - mm - dd
+            // aaaa - mm - dd
+            // aaaa - mm - dd
+            // aaaa - mm - dd
+            // aaaa - mm - dd
+            // aaaa - mm - dd
+            // aaaa - mm - dd
+
+            // aaaa - mm - dd
+            // aaaa - mm - dd
+            // aaaa - mm - dd
+            // aaaa - mm - dd
+
+            // aaaa - mm - dd
+            // aaaa - mm - dd
+            // aaaa - mm - dd
+            // aaaa - mm - dd
+            // aaaa - mm - dd
+
+            // aaaa - mm - dd
+            // aaaa - mm - dd
+            // aaaa - mm - dd
+            // aaaa - mm - dd
+            // aaaa - mm - dd
+            // aaaa - mm - dd
+            // aaaa - mm - dd
+
+            // aaaa - mm - dd
+            // aaaa - mm - dd
+            // aaaa - mm - dd
+            // aaaa - mm - dd
+            // aaaa - mm - dd
+
+            // aaaa - mm - dd
+            // aaaa - mm - dd
+            // aaaa - mm - dd
+            // aaaa - mm - dd
+            // aaaa - mm - dd
+
+            // aaaa - mm - dd
+            // aaaa - mm - dd
+            // aaaa - mm - dd
+            // aaaa - mm - dd
+            // aaaa - mm - dd
+
+            // aaaa - mm - dd
+            // aaaa - mm - dd
+            // aaaa - mm - dd
+            // aaaa - mm - dd
+            // aaaa - mm - dd
+
+            // aaaa - mm - dd
+            // aaaa - mm - dd
+            // aaaa - mm - dd
+            // aaaa - mm - dd
+            // aaaa - mm - dd
+            // aaaa - mm - dd
+            // aaaa - mm - dd
+            // aaaa - mm - dd
+            // aaaa - mm - dd
+            // aaaa - mm - dd
+            // aaaa - mm - dd
+            // aaaa - mm - dd
+            // aaaa - mm - dd
+            // aaaa - mm - dd
+            // aaaa - mm - dd
+
+            // aaaa - mm - dd
+            // aaaa - mm - dd
+            // aaaa - mm - dd
+            // aaaa - mm - dd
+
+            // aaaa - mm - dd
+            // aaaa - mm - dd
+            // aaaa - mm - dd
+
+            // aaaa - mm - dd
+            // aaaa - mm - dd
+            // aaaa - mm - dd
+            // aaaa - mm - dd
+            // aaaa - mm - dd
+
+            // aaaa - mm - dd
+            // aaaa - mm - dd
+            
         }
     }
 
