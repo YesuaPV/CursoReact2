@@ -3,7 +3,8 @@ import Domicilio from '../pages/Domicilio';
 import states from '../data/states.json';
 
 const DomicilioContainer = () =>{
-    const [ form, setForm ] = useState({cp:'', estado:'', municipio:''});
+    const [ form, setForm ] = useState({cp:'', estado:'', municipio:'', asentamiento:'', tipo:'', zona:''});
+    const [statescp, setStatescp] = useState([]);
 
     const onChange = ({target}) =>{
         let cp = target.value;
