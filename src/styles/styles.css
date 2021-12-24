@@ -176,3 +176,216 @@ label{
     background-color: var(--white);
     font-weight: bold;
 }
+
+.body-index { 
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+  }
+
+.bg-black{
+    background-image: linear-gradient(to right, #142130, rgb(42, 99, 146));
+}
+.black{
+    font-weight: 750;
+}
+
+/*      Formulario     */
+.login-box {
+    
+    width: 60vw;
+    background: rgba(0,0,0,.5);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0,0,0,.6);
+    border-radius: 10px;
+    height: 65vh;
+  }
+  
+  .login-box h2 {
+    font-weight: 750;
+    margin: 0 0 30px;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .login-box .user-box {
+    position: relative;
+  }
+  
+  .login-box .user-box input {
+    font-size: 20px;
+    font-weight: 600;
+    width: 100%;
+    padding: 5px 0;
+    font-size: 20px;
+    color: #fff;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    background: transparent;
+  }
+  .login-box .user-box textarea {
+    width: 100%;
+    padding: 5px 0;
+    font-size: 16px;
+    background: linear-gradient(#141e30, #243b55);
+    color: #fff;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+  }
+  .login-box .user-box label {
+    position: absolute;
+    top:0;
+    left: 0;
+    padding: 5px 0;
+    font-size: 20px;
+    color: #fff;
+    pointer-events: none;
+    transition: .5s;
+  }
+
+  .login-box .user-box input:focus ~ label,
+  .login-box .user-box input:valid ~ label {
+    top: -40px;
+    left: 0;
+    color: var(--white);;
+    font-size: 25px;
+  }
+  .login-box .user-box textarea:focus ~ label,
+  .login-box .user-box textarea:valid ~ label {
+    top: -40px;
+    left: 0;
+    color: var(--white);;
+    font-size: 25px;
+  }
+  
+
+  .login-box a span {
+    position: absolute;
+    display: block;
+  }
+
+  .custom-btn {
+    width: 130px;
+    height: 40px;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px 25px;
+    font-weight: 500;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+     box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+     7px 7px 20px 0px rgba(0,0,0,.1),
+     4px 4px 5px 0px rgba(0,0,0,.1);
+    outline: none;
+  }
+  
+  
+  /* botton formulario */
+  .btn-3 {
+    background: linear-gradient(#141e30, #243b55);
+    width: 130px;
+    height: 40px;
+    line-height: 42px;
+    padding: 0;
+    border: none;
+    
+  }
+  .btn-3 span {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+  .btn-3:before,
+  .btn-3:after {
+    position: absolute;
+    content: "";
+    right: 0;
+    top: 0;
+     background: rgba(2,126,251,1);
+    transition: all 0.3s ease;
+  }
+  .btn-3:before {
+    height: 0%;
+    width: 2px;
+  }
+  .btn-3:after {
+    width: 0%;
+    height: 2px;
+  }
+  .btn-3:hover{
+     background: transparent;
+    box-shadow: none;
+  }
+  .btn-3:hover:before {
+    height: 100%;
+  }
+  .btn-3:hover:after {
+    width: 100%;
+  }
+  .btn-3 span:hover{
+     color: rgba(2,126,251,1);
+  }
+  .btn-3 span:before,
+  .btn-3 span:after {
+    position: absolute;
+    content: "";
+    left: 0;
+    bottom: 0;
+     background: rgba(2,126,251,1);
+    transition: all 0.3s ease;
+  }
+  .btn-3 span:before {
+    width: 2px;
+    height: 0%;
+  }
+  .btn-3 span:after {
+    width: 0%;
+    height: 2px;
+  }
+  .btn-3 span:hover:before {
+    height: 100%;
+  }
+  .btn-3 span:hover:after {
+    width: 100%;
+  }
+  .container2{
+    color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 20vh;
+    
+}
+
+.fondo{
+  background-image: linear-gradient(to right, rgb(25, 58, 85), rgb(42, 99, 146));
+  min-height: 100vh;
+  min-width: 100vw;
+  max-width: 100vw;
+}
+
+.cont_cursos{
+  border-radius: 25px;
+  background-color: var(--white);
+}
+.text-center{
+  text-align: center;
+}
+.text-end{
+  text-align: end;
+}
+.descCurso{
+  border-top: solid black 1px;
+}

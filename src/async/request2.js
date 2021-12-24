@@ -1,4 +1,4 @@
-import HOST from '../host';
+import HOST from '../host2';
 
 class Request{
     constructor(method, body, isAuth, url){
@@ -26,7 +26,7 @@ class Request{
             myHeaders = { 'Content-Type': 'application/json' }
 
         if( this.method === 'GET' )
-            config = { method: this.method, headers: myHeaders }
+            config = { method: this.method }
         else
             config = { method: this.method, headers: myHeaders, body: JSON.stringify( this.body ) }
 

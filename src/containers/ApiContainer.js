@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Api from '../pages/Api';
-import Request from '../async/request';
+import Request from '../async/request2';
 
 const ApiContainer = () =>{
     const [ perfiles, setPerfiles ] = useState([]);

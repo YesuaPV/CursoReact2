@@ -2,9 +2,11 @@ import React from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import ApiContainer from '../containers/ApiContainer';
 import DomicilioContainer from '../containers/DomicilioContainer';
-import IndexContainer from '../containers/IndexContainer';
+import FormularioContainer from '../containers/FormularioContainer';
 import RFCContainer from '../containers/RFCContainer';
 import WelcomeContainer from '../containers/WelcomeContainer';
+import IndexContainer from '../containers/IndexContainer';
+import CourseContainer from '../containers/CourseContainer';
 
 const App = () =>{
     return(
@@ -12,6 +14,12 @@ const App = () =>{
             <Switch>
                 <Route exact path="/">
                     <IndexContainer />
+                </Route>
+                <Route exact path="/curso">
+                    <CourseContainer />
+                </Route>
+                <Route exact path="/Formulario">
+                    <FormularioContainer />
                 </Route>
                 <Route exact path="/welcome">
                     <WelcomeContainer />

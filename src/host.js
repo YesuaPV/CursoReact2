@@ -1,3 +1,3 @@
-let host = "https://api.github.com/"
+let host = "https://appsmx.com.mx/api/"
 
 export default host;
